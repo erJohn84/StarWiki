@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SpaceshipsViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:SpaceshipsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "resp.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static apiCalls.getCharsList(String, completionHandler : (responseObject : [AnyObject], success : Bool, next : AnyObject) -&gt; ()) -&gt; ():apiCalls.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static UIUtils.makeTranslucentNavigationBarForViewController(UITableViewController) -&gt; ():UIUtils.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LoadViewController.(viewDidLoad() -&gt; ()).(closure #1):LoadViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(next)">
+            </PersistentString>
+            <PersistentString
+               value = "home">
+            </PersistentString>
+            <PersistentString
+               value = "self.chars">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static apiCalls.(getCharsList((responseObject : [AnyObject]) -&gt; ()) -&gt; ()).(closure #1):apiCalls.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LoadViewController.viewDidLoad() -&gt; ():LoadViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharactersViewController.viewDidLoad() -&gt; ():CharactersViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(next)">
+            </PersistentString>
+            <PersistentString
+               value = "String(resp[0][&quot;name&quot;]!!)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharactersViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:CharactersViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(resp[indexPath.row][&quot;species&quot;]!!)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoadViewController.(getCharsList(String) -&gt; ()).(closure #1):LoadViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.completeList">
+            </PersistentString>
+            <PersistentString
+               value = "self.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharactersViewController.tableView(UITableView, didSelectRowAtIndexPath : NSIndexPath) -&gt; ():CharactersViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(resp[1][&quot;name&quot;]!!)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
