@@ -26,15 +26,12 @@ class ShipsDetailController: UIViewController {
         super.viewDidLoad()
         name.text = String(list[index]["name"]!!)
         model.text = String(list[index]["model"]!!)
-        model.adjustsFontSizeToFitWidth = true
         manufacturer.text = String(list[index]["manufacturer"]!!)
-        manufacturer.adjustsFontSizeToFitWidth = true
         crew.text = String(list[index]["crew"]!!)
         passengers.text = String(list[index]["passengers"]!!)
         cargo.text = String(list[index]["cargo_capacity"]!!)
         consumables.text = String(list[index]["consumables"]!!)
         sClass.text = String(list[index]["starship_class"]!!)
-        sClass.adjustsFontSizeToFitWidth = true
         
         // Do any additional setup after loading the view.
     }
